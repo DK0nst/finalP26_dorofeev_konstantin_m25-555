@@ -1,0 +1,37 @@
+# Виртуальные окружения
+.venv/
+venv/
+
+# Скомпилированные файлы
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Файлы переменных окружения (секреты!)
+.env
+*.env
+
+# Базы данных
+*.db
+*.sqlite3
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Временные файлы
+*.log
+*.tmp
+celerybeat-schedule
+celerybeat.pid
+
+# Docker (опционально, если не нужно коммитить)
+# docker-compose.override.yml
